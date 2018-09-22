@@ -9,6 +9,6 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/resources/features/EndToEndTest.feature", glue = { "stepdefinition" }, plugin = {
 		"pretty", "html:target/cucumber-reports" }, monochrome = true, strict = true, dryRun = false)
 
-public class TestRunner {
+public class TestRunner  {
 
 }
